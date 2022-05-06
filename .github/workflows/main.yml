@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - raphw/byte-buddy-1749803252
   pull_request:
     branches:
-      - master
+      - raphw/byte-buddy-1749803252
   schedule:
     - cron: "0 0 * * 1"
 
